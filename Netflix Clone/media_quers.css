@@ -1,0 +1,113 @@
+@media only screen and (orientation: portrait) {
+  header {
+    height: 60vh;
+  }
+  .nav-font-1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .nav-font-2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .nav-font-3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .nav-fo {
+    margin: 15px;
+  }
+  .nav-sign {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 80px;
+  }
+  .nav-sign > input {
+    width: 80vw;
+    height: 6vh;
+  }
+  .btn-sign-1 {
+    height: 55px;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .sec-font-1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .sec-font-2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sec-que {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .cont span {
+    font-size: 18px;
+  }
+  .box {
+    height: 3vh;
+    padding: 15px;
+  }
+  .sec-flex {
+    text-align: center;
+    gap: 15px;
+  }
+  .text-flex {
+    top: 50px;
+  }
+  .footer-a {
+    grid-template-columns: 1fr 1fr;
+  }
+  .foot-sign {
+    flex-direction: column;
+    gap: 24px;
+    margin: 20px;
+  }
+  input {
+    width: 25vw;
+    height: 25px;
+  }
+  .foot-sign > input {
+    width: 60vw;
+    height: 6vh;
+  }
+}
+@media only screen and (orientation: landscape) {
+  header {
+    height: 90vh;
+  }
+  .footer-a {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .text-flex {
+    top: 120px;
+  }
+  .nav-sign {
+    top: 160px;
+  }
+  .foot-sign {
+    margin: 23px;
+    gap: 23px;
+  }
+  .btn-2 {
+    width: 20vw;
+    height: 8vh;
+  }
+}
+@media only screen and (max-width: 2000px) and (min-width: 900px) {
+  header {
+    height: 80vh;
+  }
+  .nav-sign {
+    top: 120px;
+  }
+  .text-flex {
+    top: 70px;
+    gap: 18px;
+  }
+}
